@@ -55,6 +55,9 @@ let newinner = []
 let color = ["#db3a34", "#363537", "#82DDF0", "#2FBF71", "#f9e900", "#fc440f", "#1f01b9", "#0e131f", "#ffcae9", "#56e39f"]
 
 function draw() {
+	
+	[hr, min, sec] = getTimeAsArray()
+	
 	background(255)
 	translate(width / 2, height / 2)
 	strokeCap(SQUARE);
